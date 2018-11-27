@@ -1,0 +1,130 @@
+
+  $body-color:  rgb(255, 255, 255);
+  $logo-color:   rgb(86, 150, 247);
+  $btn-color:    rgb(86, 150, 247);
+  $body-backgroud-color: rgb(61, 61, 59);
+  $menu-color:   black;
+  $btn-hover:  rgb(168, 21, 1);
+
+
+body {
+    /* margin: 60; */
+    font-family: Arial, Helvetica, sans-serif;
+    background:  $body-backgroud-color;
+    color: $body-color;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 18px;
+  }
+ul{
+
+    padding: 0px;
+    margin: 0px;
+} 
+
+.menu {
+    overflow: hidden;
+    background-color:   $menu-color;
+  }
+
+  .menu a {
+    float: left;
+    color: $body-color;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .menu a:hover {
+    background-color:   $body-color;
+    color:  $menu-color;
+  }
+
+  .logo{
+    font-weight: bolder;
+    background-color:  $logo-color;
+  }
+
+  .username{
+    float: right;
+    color: $body-color;
+    padding-right: 2%;
+    font-size: 20px;
+    
+    }
+
+    #manual{
+        float: left;
+        /* display: inline-block; */
+    padding: 0 12px 6px 12px;
+    border: 2px solid  $btn-color;
+    min-width: 15%;
+    min-height: 30%;
+    margin:1%;
+    }
+
+     .text {
+        float: left;
+        /* display: inline-block; */
+        padding: 0 12px 6px 12px;
+        border: 2px solid  $btn-color;
+        min-width: 15%;
+        min-height: 30%;
+        margin: 1%;
+    }
+
+    #taskText, #inputTitleText {
+        display: inline-block;
+        margin: 0 0 10px 0;
+        padding: 5px;
+        background:  $menu-color;
+        border: 1px solid  $btn-color;
+        color: $body-color;
+        font-family: 'Franklin Gothic Medium';
+        font-size: 18px;
+    }
+    #addTaskBtn, #addListBtn{
+       
+        background: $btn-color;
+        color: $body-color;
+        border: 0;
+        font-family: 'Franklin Gothic Medium';
+        font-size: 20px;
+    }
+    #addTaskBtn:hover, #addListBtn:hover {
+        
+        background:   $btn-hover;
+        border: 2px   $btn-color;
+        color: $body-color;
+    }
+
+        
+span#remove {
+    float: right;
+    cursor: pointer;
+    
+}
+
+span#removeTitle, span#checkTask {
+    float: left;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid   $btn-color;
+}
+
+div .removejson{
+    float: left; 
+    margin: 0px 0px 0px 0px;
+    cursor: pointer;
+    /* display: inline-block;  */
+    padding: 0 12px 6px 12px;
+    border: 1px solid   $btn-color;
+}
+
+li{
+list-style: none;
+}
+
+ul li.checked { 
+    text-decoration: line-through;
+  }

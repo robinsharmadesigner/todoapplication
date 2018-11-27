@@ -1,0 +1,13 @@
+[
+    {
+    "title":"Work",
+    "todoitem":["Class","Assignment","Quiz"],
+    "author":"MOJO",
+    "date":"22/12/2018"},
+    {
+    "title":"Grocery",
+    "todoitem":["Apple","Banana","Orange","Berries"],
+    "author":"JOJO",
+    "date":"21/10/2018"
+            }
+        ]
