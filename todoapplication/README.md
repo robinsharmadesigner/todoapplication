@@ -39,7 +39,7 @@ JSON (JavaScript Object Notation) is a standard way to provide machine readable 
 
 1. Clone the repository:
 
-   a) git clone https://github.com/neu-mis-info6150-fall-2018/assignment-5-javascript-2-byte-me.git
+   a) git clone https://github.com/robystark/todoapplication.git
 
 2) Install the Dependencies using following commands:
 
